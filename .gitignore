@@ -1,0 +1,40 @@
+# Node / Frontend
+**/node_modules/
+**/.expo/
+**/dist/
+**/web-build/
+**/expo-env.d.ts
+**/.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+**/.env*.local
+
+# Java / Maven Backend
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDEs & System
+.DS_Store
+*.pem
+*.orig.*
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project/
+.classpath/
+
+# Native Builds
+**/ios/
+**/android/
+**/.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
