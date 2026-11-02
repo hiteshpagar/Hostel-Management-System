@@ -4,5 +4,7 @@ public enum LeaveStatus {
     PENDING,
     APPROVED,
     REJECTED,
+    CANCELLED,
+    COMPLETED,
     EXPIRED
 }
